@@ -27,6 +27,5 @@ int	main(int argc, char* argv[])
 	if (gnl == -1)
 		printf("An error happened\n");
 	close(fd1);
-	getc(stdin);
 	return (0);
 }
